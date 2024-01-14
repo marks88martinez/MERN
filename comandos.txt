@@ -29,3 +29,7 @@ npm install react-hook-form
 npm i axios
 
 npm i js-cookie
+
+#formateo de DATE
+day.js
+npm i dayjs
