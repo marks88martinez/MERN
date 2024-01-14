@@ -1,0 +1,31 @@
+npm init -y
+npm i express
+creamos app.js
+import express from 'express'
+const app = express()
+app.listen(4000)
+console.log('Server on port 4000');
+ npm i nodemon -D 
+ npm i morgan
+ npm i mongoose
+ npm i bcryptjs
+ npm i jsonwebtoken
+ npm i cookie-parser
+
+express validator
+modulo de espress para valodar valores
+
+zod  validator
+
+npm i zod
+
+npm i cors
+
+# Reactjs 
+npm create vite
+npm i react-router-dom
+# Hook de form
+npm install react-hook-form
+npm i axios
+
+npm i js-cookie
