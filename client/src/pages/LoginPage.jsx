@@ -46,7 +46,9 @@ function LoginPage() {
               {errors.password && (
               <p className="text-red-500">password es requerido</p>
               )}
-              <button type='submit'>Login</button>
+              <button type='submit' 
+               className="bg-sky-500 hover:bg-sky-600 text-white px-4 py-2">
+              Login</button>
           </form>
           <p className='flex gap-x-2 justify-between'>
               Don't have an acount ? <Link to='/register'>Sign up</Link>

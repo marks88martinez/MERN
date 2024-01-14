@@ -20,7 +20,9 @@ function RegisterPage() {
    
 
   return (
+    <div className=' flex h-[calc(100vh-100px)] items-center justify-center'>
     <div className='bg-zinc-800 max-w-md p-10 rounded-md'>
+
         {registerErrors.map((error, i) => (
           <div className='bg-red-500 p-2 text-white' key={i}> 
             {error}
@@ -50,7 +52,9 @@ function RegisterPage() {
              {errors.password && (
             <p className="text-red-500">password es requerido</p>
             )}
-            <button type='submit'>Register</button>
+            <button type='submit'
+            className="bg-sky-500 hover:bg-sky-600 text-white px-4 py-2"
+            >Register</button>
         </form>
         <p className='flex gap-x-2 justify-between'>
           Already Have an Account?
@@ -60,6 +64,7 @@ function RegisterPage() {
         </p>
        
     </div>
+   </div>
   )
 }
 
